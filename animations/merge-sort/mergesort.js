@@ -218,5 +218,10 @@ async function mergeSort() {
     // console.log(heights);
     
     setRunningStatus(false, "Done")
+
+    for(let z = 0; z < N; z++){
+        await delay(30)
+        setBarColor(z, "red");
+    }
     return;
 }
