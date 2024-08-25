@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selection Sort</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="selectionsort.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Bars go here through script -->
+    <div id="root"></div>
+    <div id="array"></div>
+
+    <br><br>
+
+    <!-- dynamic input fields -->
+    <div style="color: white;">Iteration Duration: &nbsp;
+      <input type="number" min="5" placeholder="200" name="interval-duration" id="interval-duration">    </div>
+    <div style="color: white;">Number of elements: &nbsp;
+      <input type="number" min="1" placeholder="40" name="number-of-elements" id="number-of-elements">
+    </div>
+
+    <br><br>
+
+    <!-- Buttons -->
+    <button id="start" type="button"> Start </button>
+    <button id="reset" type="button"> Reset </button>
+    
+    <br><br>
+    
+    <!-- Status text -->
+    <div id="status"> Not Running </div>
+
+    <br><br>
+
+    <!-- Back button -->
+    <button type="button" id="back-button" >Back to main menu</button>
+</body>
+
+</html>
