@@ -111,7 +111,8 @@ $(document).ready(() => {
 
     // Back button
     $("#back-button").click(function (e) {
-        window.location.href = '/'
+        window.history.back()
+        // window.location.href = '/'
     });
 
     // input fields
