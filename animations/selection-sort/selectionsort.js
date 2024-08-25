@@ -44,10 +44,10 @@ $(document).ready(() => {
     });
     
     // Back button
-    $("#back-button").click(function (e) {
-        // window.history.back()
-        window.location.href = '/index.html'
-    });
+    // $("#back-button").click(function (e) {
+    //     // window.history.back()
+    //     window.location.href = '/index.html'
+    // });
 
     // input fields
     // N
