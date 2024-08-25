@@ -39,6 +39,7 @@ $(document).ready(() => {
     
     // Reset Button
     $("#reset").click(function (e) {
+        
         initialize()
         setRunningStatus(false, "Not Running")
     });
@@ -125,7 +126,7 @@ function render() {
     for (let i = 0; i < N; i++) {
         $('#root').append(`<div style="background-color:${baseColor};" class="bar" id="${i}"></div`)
         $(`#${i}`).height(heights[i] * 10 + 10)
-        $(`#array`).append(`<div id="value-${i}" style="color:white; display: inline-block; width: 10px; margin: 5px;"> ${heights[i] + 1} </div>`)
+        $(`#array`).append(`<div class="values" id="value-${i}"> ${heights[i] + 1} </div>`)
     }
 }
 

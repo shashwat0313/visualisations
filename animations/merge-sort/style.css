@@ -1,18 +1,16 @@
-*,
-*::after,
-*::before {
+*, *::after, *::before{
     box-sizing: border-box;
 }
 
-body {
+body{
     background-color: black;
 }
 
-#status {
+#status{
     color: white;
 }
 
-.bar {
+.bar{
     width: 10px;
     margin: 5px;
     height: 250px;
@@ -23,7 +21,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.desc {
+.desc{
     color: white;
 }
 
